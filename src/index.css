@@ -1,0 +1,28 @@
+:root {
+  --hue: 309;
+  --saturation: 18%;
+  --lightness: 15%;
+  --primaryColor: hsl(var(--hue), var(--saturation), var(--lightness));
+  --primaryDarkColor: hsl(var(--hue), 15%, 19%);
+  --secondaryColor: #ef5550;
+  --colorFontGray: hsl(0, 0%, 80%);
+  --white: hsl(0, 0%, 98%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f2f4f5;
+  color: var(--white);
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  background-color: var(--primaryColor);
+  min-height: 600px;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

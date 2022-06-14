@@ -1,0 +1,36 @@
+.containerSearch {
+  position: relative;
+  border-radius: 10px;
+  background-color: var(--primaryDarkColor);
+}
+
+.icon {
+  position: absolute;
+  top: calc(100% - 38px);
+  left: 12px;
+}
+
+.TodoSearch {
+  background: transparent;
+  border-radius: 10px;
+  border: none;
+  height: 55px;
+  width: 100%;
+  padding-left: 50px;
+  font-size: 18px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  color: var(--white);
+  box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.25);
+  outline: none;
+}
+
+.TodoSearch::placeholder {
+  color: var(--colorFontGray);
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+.TodoSearch:focus {
+  outline-color: var(--secondaryColor);
+}
