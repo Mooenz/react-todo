@@ -11,16 +11,16 @@ form {
 label {
   text-align: center;
   font-weight: bold;
-  font-size: #1E1E1F;
+  font-size: #1e1e1f;
   margin-bottom: 26px;
 }
 
 textarea {
-  background-color: #F9FBFC;
+  background-color: #f9fbfc;
   border: 2px, solid #202329;
   border-radius: 2px;
   box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.25);
-  color: #1E1E1F;
+  color: #1e1e1f;
   font-size: 20px;
   text-align: center;
   padding: 12px;
@@ -29,13 +29,13 @@ textarea {
 }
 
 textarea::placeholder {
-color: #a5a5a5;
-font-family: 'Montserrat';
-font-weight: 400;
+  color: #a5a5a5;
+  font-family: 'Montserrat';
+  font-weight: 400;
 }
 
 textarea:focus {
-  outline-color: #61DAFA;
+  outline-color: #61dafa;
 }
 
 .TodoForm-buttonContainer {
@@ -60,7 +60,7 @@ textarea:focus {
 }
 
 .TodoForm-button-add {
-  background-color: #61DAFA;
+  background-color: #61dafa;
   box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
 }
 

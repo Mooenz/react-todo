@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Styles
-import "./ToDoForm.css"
+import './ToDoForm.css';
 
 function ToDoForm({ onSubmit, newTodoValue, onChange, onCancel }) {
   return (
